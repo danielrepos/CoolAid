@@ -1,0 +1,19 @@
+This goes in functions.js for viewing server count and memeber count (Line 783)
+{
+  | ${client.guilds.cache.size} Server | ${Math.ceil(client.users.cache.size/1000)} Members`
+}
+
+----------------------------------------------------
+
+This goes in defaultfilter.js if you need any filter on play (Line 30 after default values)
+{
+  defaultfilters: [`bassboost6`, `clear`]
+}
+
+-------------------------------------------------
+
+{
+  Leave events are in main index.js
+}
+
+-----------------------------------------
